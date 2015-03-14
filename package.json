@@ -1,0 +1,20 @@
+{
+  "name": "catenary",
+  "version": "1.0.0",
+  "description": "Concatenative utility kilt",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Sam Gentle <sam@samgentle.com>",
+  "license": "MIT"
+}
