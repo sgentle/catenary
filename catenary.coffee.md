@@ -17,6 +17,9 @@ instance (or cat for short).
 
     proto._isCatenary = true
 
+Later on we'll use setPrototypeOf to ensure all cats have this proto.
+
+    setPrototypeOf = Object.setPrototypeOf or (obj, proto) -> obj.__proto__ = proto
 
 The `define` function adds a function to the prototype, which makes it
 available to all cats. However you can also create sub-instances with their
@@ -80,7 +83,7 @@ we call `cat.cat`
         else
           cat._execute(null, args)
 
-      Object.setPrototypeOf(cat, _proto)
+      setPrototypeOf(cat, _proto)
       cat._proto = _proto if _proto isnt proto
       cat._stack = []
       cat
