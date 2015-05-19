@@ -1,5 +1,7 @@
-Catenary
+Catenary ![TravisCI](https://travis-ci.org/sgentle/catenary.svg?branch=master)
 ========
+
+
 
 Catenary is a [concatenative programming](http://concatenative.org/wiki/view/Concatenative%20language) library for Javascript. Like functional programming, concatenative programming can be hard to get your head around at first, but used appropriately it can make your programs cleaner and more elegant.
 
